@@ -470,7 +470,82 @@ p.kpn-intro__text {
     display: flex;
     align-items: center;
 }
+/* trust end */
 
+/* services start */
+.kpn-services__title {
+    margin-bottom: 100px;
+}
 
+.kpn-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.kpn-list-item {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border-top: 1px solid #304FFE;
+    border-bottom: 1px solid #304FFE;
+}
+
+.kpn-list-item__link {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 32px;
+    display: block;
+    width: 100%;
+    padding: 8px 32px;
+    text-align: left;
+    color: #304FFE;
+}
+
+.kpn-list-item__link:hover,
+.kpn-list-item__link--active {
+    background: #304FFE;
+    color: white;
+}
+
+.kpn-services__row {
+    display: flex;
+    align-items: center;
+}
+
+.kpn-services__details {
+    position: relative;
+}
+
+.kpn-services__details::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/cross.svg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    left: 32px;
+    bottom: -32px;
+}
+
+.kpn-services__details::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/cross.svg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -80px;
+}
+
+/* services end */
 
 /*** Homepage end ***/
