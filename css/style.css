@@ -669,9 +669,155 @@ p.kpn-intro__text {
     margin-top: 32px;
 }
 
-
-
-
 /* news end */
+
+/* contacts start */
+
+.kpn-input-wrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid #304FFE;
+    margin-bottom: 35px;
+}
+
+.kpn-input {
+    background: transparent;
+    border:none;
+    line-height: 1.5;
+    height: auto;
+    color: white;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 15px;
+    flex-grow: 1;
+    padding: 0;
+}
+
+.kpn-input:focus {
+    outline: none;
+}
+
+.kpn-input::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+.kpn-input-wrapper--user,
+.kpn-input-wrapper--email,
+.kpn-input-wrapper--about {
+    padding-left: 38px;
+}
+
+.kpn-input-wrapper--user::before,
+.kpn-input-wrapper--email::before,
+.kpn-input-wrapper--about::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+}
+
+.kpn-input-wrapper--user:before {
+    background: url("../img/icons/user-ico.svg") no-repeat;
+}
+.kpn-input-wrapper--email:before {
+    background: url("../img/icons/email-ico.svg") no-repeat;
+}
+.kpn-input-wrapper--about:before {
+    background: url("../img/icons/info-ico.svg") no-repeat;
+}
+
+.kpn-form .form-group {
+    margin-bottom: 40px;
+}
+
+.form-group__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kpn-label {
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.kpn-radio {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #304FFE;
+    margin-bottom: 0;
+}
+
+.kpn-radio span {
+    opacity: 0.5;
+}
+
+.kpn-radio > input:checked ~ span {
+    opacity: 1;
+}
+
+.kpn-radio input {
+    display: none;
+}
+
+.kpn-checkbox {
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 0;
+    padding-left: 32px;
+}
+
+.kpn-checkbox input {
+    display: none;
+}
+
+.kpn-checkbox i {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url("../img/icons/checkbox.svg") no-repeat;
+}
+
+.kpn-checkbox input:checked ~ i {
+    background: url("../img/icons/checkbox-checked.svg") no-repeat;
+}
+
+.kpn-contact__decoration-wrapper {
+    position: relative;
+}
+
+.kpn-contact__decoration {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: -50px;
+}
+
+
+/* contacts end */
 
 /*** Homepage end ***/
