@@ -1,0 +1,18 @@
+.kpn-header {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.kpn-header__container {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+.kpn-header__inner {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}

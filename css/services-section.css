@@ -1,0 +1,38 @@
+.kpn-services__title {
+    margin-bottom: 100px;
+}
+
+.kpn-services__row {
+    display: flex;
+    align-items: center;
+}
+
+.kpn-services__details {
+    position: relative;
+}
+
+.kpn-services__details::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/cross.svg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    left: 32px;
+    bottom: -32px;
+}
+
+.kpn-services__details::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/cross.svg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -80px;
+}

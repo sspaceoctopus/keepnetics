@@ -1,0 +1,18 @@
+.kpn-desc--big {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 70%;
+}
+
+.kpn-innovate-item {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    border-right: 1px solid #304FFE;
+}
+
+.kpn-innovate-item--no-border {
+    border-right: none;
+}

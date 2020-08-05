@@ -1,0 +1,33 @@
+.kpn-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.kpn-list-item {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border-top: 1px solid #304FFE;
+    border-bottom: 1px solid #304FFE;
+}
+
+.kpn-list-item__link {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 32px;
+    display: block;
+    width: 100%;
+    padding: 8px 32px;
+    text-align: left;
+    color: #304FFE;
+}
+
+.kpn-list-item__link:hover,
+.kpn-list-item__link--active {
+    background: #304FFE;
+    color: white;
+}

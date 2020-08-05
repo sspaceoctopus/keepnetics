@@ -1,0 +1,148 @@
+.kpn-slider {
+    width: 100%;
+    position: relative;
+}
+
+.kpn-slider__arrow {
+    z-index: 3;
+    width: auto;
+    padding: 0;
+    outline: none;
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 65px;
+    border: none;
+    background: transparent;
+}
+
+.kpn-slider__arrow:hover {
+    background: transparent;
+    border: none;
+}
+
+.kpn-slider__arrow--next {
+    left: unset;
+    right: 65px;
+}
+
+.kpn-slider__arrow--contained {
+    left: -100px;
+}
+
+.kpn-slider__arrow--contained.kpn-slider__arrow--next {
+    left: unset;
+    right: -100px;
+}
+
+
+.kpn-slider__nav {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    right: 65px;
+    bottom: 65px;
+}
+
+.kpn-slider__dot {
+    padding: 0;
+    width: 16px;
+    outline: none;
+    height: 16px;
+    border: 1px solid #FFA000;
+    display: block;
+    background: transparent;
+}
+
+
+.kpn-slider__dot:hover {
+    background: transparent;
+    border: 1px solid #FFA000;
+}
+
+.kpn-slider__dot--active {
+    background: #FFA000;
+    position: relative;
+}
+
+.kpn-slider__dot--active:before {
+    height: 16px;
+    position: absolute;
+    width: 2px;
+    content: '';
+    display: block;
+    background: #FFA000;
+    top: -1px;
+    right: -7px;
+}
+
+.kpn-slider__dot--active:hover {
+    background: #FFA000;
+}
+
+.kpn-slider__inner {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kpn-slide {
+    display: none;
+    position: relative;
+}
+
+.kpn-slide__bg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.kpn-slide--full-screen {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.kpn-slide--full-screen .container {
+    z-index: 2;
+}
+
+.kpn-slide--full-screen::before {
+    z-index: 1;
+    width: 47%;
+    background: rgba(55,80,254,.3);
+    height: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.kpn-slide--active {
+    display: block;
+}
+
+.kpn-slide--full-screen.kpn-slide--active {
+    display: flex;
+}
+
+.kpn-slide__show-more {
+    display: flex;
+    margin-top: 30px;
+}
+
+.kpn-slide--full-screen .kpn-hashtag {
+    position: absolute;
+    bottom: -215px;
+}

@@ -1,0 +1,134 @@
+.kpn-news .container{
+    width: 1310px;
+}
+
+.kpn-news-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 256px);
+    grid-gap: 32px;
+}
+
+
+.kpn-news-item:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.kpn-news-item:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.kpn-news-item:nth-child(5) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+.kpn-news-grid--simple {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: unset;
+}
+
+.kpn-news-grid--simple .kpn-news-item {
+    min-height: 400px;
+}
+
+.kpn-news-grid--simple .kpn-news-item:nth-child(1),
+.kpn-news-grid--simple .kpn-news-item:nth-child(2),
+.kpn-news-grid--simple .kpn-news-item:nth-child(5) {
+    grid-row-start: unset;
+    grid-row-end: unset;
+    grid-column-start: unset;
+    grid-column-end: unset;
+}
+
+.kpn-news-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.kpn-news-item::before {
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #000000;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.kpn-news-item:hover::before {
+    height: 2px;
+    background: #FFC107;
+    bottom: 0;
+    top: unset;
+}
+
+.kpn-news-item__bg {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.kpn-news-item__hashtag {
+    text-transform: none;
+    display: block;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+.kpn-date {
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.kpn-news-item__date {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.kpn-news-item__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.kpn-news-item__title:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.kpn-author {
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.kpn-news__btn {
+    display: flex;
+    width: 415px;
+    margin: 0 auto;
+    margin-top: 32px;
+}

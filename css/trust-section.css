@@ -1,0 +1,23 @@
+.kpn-trust__divider {
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background: #304FFE;
+    margin-bottom: 80px;
+}
+
+.kpn-trust__btn {
+    margin-top: 30px;
+}
+
+.kpn-trust__col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kpn-partner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
