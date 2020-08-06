@@ -199,3 +199,21 @@ p {
     text-transform: lowercase;
     color: #FFC107;
 }
+
+.kpn-main--blog {
+    position: relative;
+}
+
+.kpn-main--blog::before {
+    content: '';
+    opacity: 0.1;
+    position: absolute;
+    display: block;
+    width: 825px;
+    height: 830px;
+    top: 0;
+    z-index: -10;
+    right: 10%;
+    background: url("../img/pyramid.svg") no-repeat;
+    background-size: cover;
+}
