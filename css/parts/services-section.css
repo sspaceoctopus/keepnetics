@@ -16,7 +16,7 @@
     display: block;
     width: 70px;
     height: 70px;
-    background-image: url("../img/cross.svg");
+    background-image: url("../../img/cross.svg");
     background-size: cover;
     position: absolute;
     z-index: -1;
@@ -29,7 +29,7 @@
     display: block;
     width: 120px;
     height: 120px;
-    background-image: url("../img/cross.svg");
+    background-image: url("../../img/cross.svg");
     background-size: cover;
     position: absolute;
     z-index: -1;

@@ -1,0 +1,7 @@
+@import "./parts/basic.css";
+@import "./parts/header.css";
+@import "./parts/nav.css";
+@import "./parts/article-top.css";
+
+@import "./parts/news.css";
+@import "./parts/footer.css";

@@ -48,13 +48,13 @@
 }
 
 .kpn-input-wrapper--user:before {
-    background: url("../img/icons/user-ico.svg") no-repeat;
+    background: url("../../img/icons/user-ico.svg") no-repeat;
 }
 .kpn-input-wrapper--email:before {
-    background: url("../img/icons/email-ico.svg") no-repeat;
+    background: url("../../img/icons/email-ico.svg") no-repeat;
 }
 .kpn-input-wrapper--about:before {
-    background: url("../img/icons/info-ico.svg") no-repeat;
+    background: url("../../img/icons/info-ico.svg") no-repeat;
 }
 
 .kpn-form .form-group {
@@ -124,11 +124,11 @@
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background: url("../img/icons/checkbox.svg") no-repeat;
+    background: url("../../img/icons/checkbox.svg") no-repeat;
 }
 
 .kpn-checkbox input:checked ~ i {
-    background: url("../img/icons/checkbox-checked.svg") no-repeat;
+    background: url("../../img/icons/checkbox-checked.svg") no-repeat;
 }
 
 .kpn-contact__decoration-wrapper {
