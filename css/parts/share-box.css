@@ -1,0 +1,28 @@
+.kpn-share-box {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kpn-share-box__title {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #304FFE;
+    margin-bottom: 16px;
+}
+
+.kpn-share-box__link {
+    display: block;
+    margin-bottom: 26px;
+}
+
+.kpn-share-box__link img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}

@@ -4,6 +4,7 @@
     width: 100%;
 }
 
+
 .kpn-footer__container {
     width: 1310px;
     margin: 0 auto;
@@ -20,6 +21,12 @@
     font-size: 15px;
     color: #FFFFFF;
     margin-bottom: 8px;
+}
+
+
+.kpn-footer--white .kpn-footer__col a,
+.kpn-footer--white .kpn-footer__col span {
+    color: #151515;
 }
 
 .kpn-footer__col a:hover {
@@ -39,6 +46,14 @@
     margin-bottom: 0;
     display: flex;
     align-items: center;
+}
+
+.kpn-footer--white .kpn-contact-us a svg path {
+    fill: #151515;
+}
+
+.kpn-footer--white .kpn-small-title {
+    color: #151515;
 }
 
 .kpn-contact-us a:hover svg path{

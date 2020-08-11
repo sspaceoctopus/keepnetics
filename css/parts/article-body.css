@@ -1,0 +1,51 @@
+.kpn-article-body__container {
+    color: #393939;
+    font-weight: 500;
+    font-size: 16px;
+    width: 864px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 32px;
+}
+
+.kpn-article-body__container h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    margin-top: 64px;
+}
+
+.kpn-article-body__container p {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.kpn-article-body__container q {
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 32px;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+
+.kpn-article-body__container q::before {
+    content: '';
+    background: url("../../img/icons/quote.svg") no-repeat;
+    width: 116px;
+    height: 88px;
+    left: 0;
+    top: 0;
+    display: block;
+    position: absolute;
+}
+
+.kpn-article-body__container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 64px 0;
+}

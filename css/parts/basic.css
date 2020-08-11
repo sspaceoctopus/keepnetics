@@ -33,6 +33,11 @@ body {
     background: #151515;
 }
 
+body.kpn-body--white {
+    color: #151515;
+    background: white;
+}
+
 h1 {
     font-weight: 600;
     font-size: 75px;
@@ -65,6 +70,16 @@ p {
     text-decoration: none;
     color: #151515;
     background: white;
+}
+
+.kpn-btn--inverted {
+    color: #151515;
+    border-color: #151515;
+}
+
+.kpn-btn--inverted:hover {
+    color: white;
+    background: #151515;
 }
 
 .kpn-btn--small {
@@ -216,4 +231,9 @@ p {
     right: 10%;
     background: url("../../img/pyramid.svg") no-repeat;
     background-size: cover;
+}
+
+
+.kpn-main--white {
+    background: white;
 }

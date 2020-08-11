@@ -2,6 +2,8 @@
 @import "./parts/header.css";
 @import "./parts/nav.css";
 @import "./parts/article-top.css";
-
+@import "./parts/article-body.css";
+@import "./parts/share-box.css";
+@import "./parts/article-related.css";
 @import "./parts/news.css";
 @import "./parts/footer.css";
