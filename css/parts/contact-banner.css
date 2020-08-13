@@ -1,0 +1,20 @@
+.kpn-contact-banner {
+    background: linear-gradient(93.58deg, #00003E 0%, #304FFE 100%);
+    padding: 64px 0;
+    margin-top: 48px;
+}
+
+.kpn-contact-banner__col {
+    display: flex;
+    align-items: center;
+    min-height: 175px;
+}
+.kpn-contact-banner__text {
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+
+.kpn-contact-banner__btn {
+
+}

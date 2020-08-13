@@ -1,6 +1,7 @@
 @import "./parts/basic.css";
 @import "./parts/header.css";
 @import "./parts/nav.css";
+@import "./parts/sub-nav.css";
 @import "./parts/blog-nav.css";
 @import "./parts/blog-list.css";
 @import "./parts/news.css";

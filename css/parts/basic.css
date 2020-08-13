@@ -188,6 +188,11 @@ p {
     text-transform: uppercase;
 }
 
+.kpn-title--dark span{
+    background: white;
+    color: #151515;
+}
+
 
 .kpn-sub-title {
     width: 100%;
