@@ -242,3 +242,26 @@ p {
 .kpn-main--white {
     background: white;
 }
+
+
+@media screen and (max-width: 1199px) {
+    .kpn-section {
+        height: auto;
+        padding: 32px 0;
+    }
+
+    .kpn-title--mb-70 {
+        margin-bottom: 32px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 52px;
+        color: #FFFFFF;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+}

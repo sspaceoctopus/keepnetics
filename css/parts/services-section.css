@@ -36,3 +36,20 @@
     right: 0;
     top: -80px;
 }
+
+
+
+@media screen and (max-width: 1199px) {
+
+    .kpn-services__row {
+        display: block;
+    }
+
+    .kpn-services__details {
+        margin-top: 32px;
+    }
+
+    .kpn-services__title {
+        margin-bottom: 32px;
+    }
+}

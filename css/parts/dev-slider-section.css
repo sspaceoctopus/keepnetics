@@ -146,3 +146,36 @@
     position: absolute;
     bottom: -215px;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-slide--full-screen {
+        padding: 64px 32px;
+    }
+
+    .kpn-slider__nav {
+       display: none;
+    }
+
+    .kpn-slider__arrow {
+        left: 8px;
+    }
+
+    .kpn-slider__arrow--next {
+        left: unset;
+        right: 8px;
+    }
+
+
+    .kpn-slide--full-screen::before {
+        width: 65%;
+    }
+
+    .kpn-slider__arrow--contained {
+        left: 8px;
+    }
+
+    .kpn-slider__arrow--contained.kpn-slider__arrow--next {
+        left: unset;
+        right: 8px;
+    }
+}

@@ -17,3 +17,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-header__container {
+        width: 100%;
+        padding: 12px;
+    }
+}

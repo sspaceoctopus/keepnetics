@@ -32,3 +32,14 @@ p.kpn-intro__text {
 .kpn-intro__learn {
     margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 1199px) {
+    .kpn-intro {
+       padding-top: 112px;
+    }
+
+    .kpn-intro .container {
+        width: 100%;
+    }
+}

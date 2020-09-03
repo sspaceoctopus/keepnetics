@@ -63,3 +63,13 @@
 .kpn-copyright {
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-footer__container {
+        width: 100%;
+    }
+
+    .kpn-footer__col {
+        margin-bottom: 24px;
+    }
+}

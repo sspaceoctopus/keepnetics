@@ -176,3 +176,16 @@
 .kpn-range-slider__block--active {
     background: #304FFE;
 }
+
+
+@media screen and (max-width: 1199px) {
+    .kpn-form,
+    .form-group,
+    .form-group__inner {
+        width: 100%;
+    }
+
+    .form-group__inner {
+        flex-direction: column;
+    }
+}

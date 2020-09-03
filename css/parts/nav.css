@@ -30,3 +30,10 @@
 .kpn-nav__link:hover svg path{
     opacity: 1;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-nav {
+        display: none;
+        width: 100%;
+    }
+}

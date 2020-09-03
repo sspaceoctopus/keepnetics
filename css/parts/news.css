@@ -132,3 +132,35 @@
     margin: 0 auto;
     margin-top: 32px;
 }
+
+
+@media screen and (max-width: 1199px) {
+    .kpn-news-item {
+        min-height: 350px;
+    }
+
+    .kpn-news .container{
+        width: 100%;
+    }
+
+    .kpn-news-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: minmax(0,1fr);
+        grid-template-rows: auto;
+        grid-gap: 24px;
+    }
+
+    .kpn-news-item:nth-child(1),
+    .kpn-news-item:nth-child(2),
+    .kpn-news-item:nth-child(5) {
+        grid-row-start: unset;
+        grid-row-end: unset;
+        grid-column-start: unset;
+        grid-column-end: unset;
+    }
+
+    .kpn-news__btn {
+        width: 100%;
+    }
+}
