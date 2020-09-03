@@ -63,3 +63,37 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-about-us-grid {
+        flex-wrap: wrap;
+    }
+
+    .kpn-about-us-body {
+        padding-bottom: 0;
+    }
+
+    .kpn-about-us-grid__col {
+        width: 100%;
+        border-right: 1px solid #304FFE;
+    }
+
+    .kpn-about-us-item__title--center {
+        left: -16px;
+        transform: translateY(-50%);
+    }
+    .kpn-about-us-item {
+        padding-bottom: 65px;
+    }
+
+    .kpn-about-us-item--right {
+        padding-left: unset;
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-bottom: 65px;
+    }
+
+    .kpn-about-us-item--mt {
+        margin-top: 0;
+    }
+}

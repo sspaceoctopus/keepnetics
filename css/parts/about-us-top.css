@@ -52,3 +52,19 @@
     left: -200px;
     top: -130px;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-about-us-top {
+        padding-top: 110px;
+    }
+
+    .kpb-about-us-top__container::after {
+        left: unset;
+        right: 40px;
+        top: 10px;
+    }
+
+    .kpn-about-us-top__decoration-wrapper::before {
+        display: none;
+    }
+}
