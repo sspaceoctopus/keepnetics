@@ -26,3 +26,19 @@
     height: 40px;
     margin: 0;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-share-box {
+        flex-direction: row;
+        justify-content: flex-start;
+        right: unset;
+        transform: translateY(-120%);
+    }
+
+
+    .kpn-share-box__title,
+    .kpn-share-box__link {
+        margin-bottom: 0;
+        margin-right: 12px;
+    }
+}

@@ -79,3 +79,25 @@
 .kpn-author-box__author {
     font-weight: 600;
 }
+
+
+@media screen and (max-width: 1199px) {
+    .kpn-article-top {
+        overflow: hidden;
+    }
+
+    .kpn-article-top__bg {
+        width: auto;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .kpn-article-top__bg img {
+        width: auto;
+    }
+
+    .kpn-article-top__container {
+        width: 100%;
+    }
+}

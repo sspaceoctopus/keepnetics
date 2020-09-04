@@ -56,3 +56,9 @@
     margin-bottom: 16px;
     padding-left: 50px;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpn-article-body__container {
+        width: 100%;
+    }
+}
