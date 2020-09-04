@@ -135,7 +135,8 @@
 
 
 @media screen and (max-width: 1199px) {
-    .kpn-news-item {
+    .kpn-news-item,
+    .kpn-news-grid--simple .kpn-news-item {
         min-height: 350px;
     }
 

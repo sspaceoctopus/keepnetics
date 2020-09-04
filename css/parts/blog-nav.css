@@ -7,3 +7,13 @@
     width: 1310px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1199px) {
+    .kpb-blog-nav .container {
+        width: 100%;
+    }
+
+    .kpb-blog-nav {
+        margin-bottom: 0;
+    }
+}

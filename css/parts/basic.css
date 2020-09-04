@@ -264,4 +264,18 @@ p {
         width: 100%;
     }
 
+    .kpn-title span {
+        text-align: center;
+    }
+    
+    .kpn-main--blog {
+        overflow: hidden;
+    }
+    
+    .kpn-main--blog::before {
+        left: 50%;
+        right: unset;
+        transform: translateX(-50%);
+    }
+
 }

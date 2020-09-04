@@ -6,3 +6,10 @@
 .kpb-blog-list__news-grid {
     margin-bottom: 64px;
 }
+
+
+@media screen and (max-width: 1199px) {
+    .kpb-blog-list .container{
+        width: 100%;
+    }
+}
