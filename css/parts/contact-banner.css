@@ -15,6 +15,8 @@
     color: white;
 }
 
-.kpn-contact-banner__btn {
-
+@media screen and (max-width: 1199px) {
+    .kpn-contact-banner__col {
+        min-height: auto;
+    }
 }
