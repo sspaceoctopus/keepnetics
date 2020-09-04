@@ -12,6 +12,10 @@
     margin: 0 auto;
 }
 
+.kpn-header__nav-toggler {
+    display: none;
+}
+
 .kpn-header__inner {
     padding: 12px 0;
     display: flex;
@@ -22,5 +26,14 @@
     .kpn-header__container {
         width: 100%;
         padding: 12px;
+    }
+
+    .kpn-header__nav-toggler {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        background: transparent;
+        border: none;
     }
 }

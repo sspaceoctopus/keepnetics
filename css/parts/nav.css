@@ -36,4 +36,21 @@
         display: none;
         width: 100%;
     }
+
+    .kpn-nav--open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 88px;
+        z-index: 1000;
+        width: 100%;
+        padding: 64px 32px;
+        background: linear-gradient(93.58deg, #00003E 0%, #304FFE 100%);
+        align-items: flex-start;
+    }
+
+    .kpn-nav__link {
+        margin-bottom: 8px;
+    }
 }
