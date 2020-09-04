@@ -243,6 +243,25 @@ p {
     background: white;
 }
 
+.backdrop {
+    height: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.backdrop::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #00003E;
+    opacity: 0.5;
+    z-index: 10;
+}
+
 
 @media screen and (max-width: 1199px) {
     .kpn-section {
